@@ -16,13 +16,11 @@ target = random(100)+1
 
 #numbers test
 num_guesses=0
-
 guesses_it=0
 
 puts "You've got # {10-num_guesses} guesses left."
 print "make a guess: "
 guess = gets.to_i
-
 #
 #
 if guess < target
@@ -34,7 +32,6 @@ elsif guess ==target
 	puts "You guessed my number in #{num_guesses} guesses!"
 	guesses_it = true
 	end
-	
 #net popitik
 if not guessed_it
 	puts "sorry. You didn't get my number. ( it was # {target}."
